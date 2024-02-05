@@ -22,9 +22,9 @@ const Hero = () => {
                     </svg>
                 </span>
                 <span className='flex-1'>
-                    <input type="text" className='p-1.5 xl:p-2 outline-none bg-transparent placeholder:text-paragraph placeholder:text-md placeholder:text-sm font-poppins w-full' placeholder="Enter Your location" name="" id="" />
+                    <input type="text" className='p-1.5 xl:p-2 outline-none bg-transparent placeholder:text-paragraph placeholder:text-md placeholder:text-sm font-poppins w-full' placeholder="Your location" name="" id="" />
                 </span>
-                <span className='bg-primary p-3 xl:p-5 flex justify-center w-[120px] xl:w-[200px] text-sm rounded-full text-white cursor-pointer'>
+                <span className='bg-primary p-3.5 xl:p-5 flex justify-center w-[100px] xl:w-[200px] text-xs rounded-full text-white cursor-pointer'>
                     <button className='flex items-center justify-center gap-2'>
                         <span><FaSearch /></span>
                         <span>Search</span>
@@ -39,7 +39,7 @@ const Hero = () => {
                 <Image src={plate} alt="big plate" className='object-contain' fill />
             </div>
 
-            <div  className='absolute xl:-top-32 top-[65%] xl:right-20 -right-[5%] border w-[200px] xl:w-[300px] border-white glass-morphism'>
+            <div  className='absolute xl:-top-32 top-[65%] xl:right-20 right-[2%] border w-[200px] xl:w-[300px] border-white glass-morphism'>
                 <span className='flex items-center gap-2 text-orange-secondary'>
                     <FaCircleCheck className='text-md xl:text-3xl' />
                     <span className='text-sm xl:text-3xl font-bold'>200k+</span>

@@ -7,11 +7,11 @@ import { FaCaretDown, FaShoppingCart } from 'react-icons/fa'
 
 const Navbar = () => {
   return (
-    <header className='padding-x py-8 absolute z-10 w-full'>
+    <header className='padding-x py-2 xl:py-8 absolute z-10 w-full'>
         <div className='flex items-center justify-between max-container'>
             {/* left */}
             <div className=''>
-                <div className='h-[100px] w-[100px] relative'>
+                <div className='xl:h-[100px] h-[75px] w-[100px] relative'>
                     <Image src={logoGreen} alt="foodtime logo" className='object-contain' fill/>
                 </div>
             </div>

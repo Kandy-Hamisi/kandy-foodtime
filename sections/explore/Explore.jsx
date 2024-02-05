@@ -18,7 +18,7 @@ const Explore = () => {
 
         {/* right */}
         <div className='xl:flex-1 w-full bg-city bg-center bg-cover'>
-            <div className='h-[300px] md:h-[400px] w-full relative lg:flex lg:justify-center'>
+            <div className='h-[200px] md:h-[400px] w-full relative lg:flex lg:justify-center'>
                 <Image src={bike} alt='delivery man' className='object-contain' fill />
             </div>
         </div>

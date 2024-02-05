@@ -8,7 +8,7 @@ const FAQs = () => {
     <section className='max-container'>
         <div className='flex flex-col items-center justify-center gap-8'>
             <div>
-                <h1 className='text-2xl font-bold xl:text-4xl font-poppins'>Frequenty Asked Questions</h1>
+                <h1 className='text-2xl font-bold xl:text-4xl text-center font-poppins'>Frequenty Asked Questions</h1>
             </div>
             <div className='flex items-center gap-4'>
                 <Button text="General" type="background" color="primary" />
