@@ -16,7 +16,7 @@ const Navbar = () => {
                 </div>
             </div>
             {/* center */}
-            <div className='flex w-[1000px] p-2'>
+            <div className='xl:flex w-[1000px] p-2 hidden'>
                 <nav className='flex items-center justify-end gap-12 flex-1 p-4'>
                     <ul className='flex-1 flex items-center justify-end w-full'>
                         {

@@ -8,6 +8,7 @@ import place from './place.png';
 import plate from './plate.png';
 import tiempo from './tiempo.png';
 import bikeCity from './bike-city.png';
+import mockup from './mockup.jpg';
 
 
 export {
@@ -21,4 +22,5 @@ export {
     plate,
     tiempo,
     bikeCity,
+    mockup,
 }

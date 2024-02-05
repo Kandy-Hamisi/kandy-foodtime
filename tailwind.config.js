@@ -39,6 +39,8 @@ module.exports = {
       backgroundImage: {
         'hero': "url('assets/images/collection-background.svg')",
         'card': "url('assets/images/thumbnail-background.svg')",
+        'city': "url('/city.png')",
+        'chef': "url('/chef.jpg')",
       },
       screens: {
         "wide": "1440px"
